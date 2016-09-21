@@ -1,0 +1,32 @@
+{
+  "name": "amazeui-areaselect",
+  "version": "0.0.1",
+  "description": "Amaze UI AreaSelect 插件",
+  "main": "dist/amazeui.areaselect.js",
+  "style": "dist/amazeui.areaselect.css",
+  "scripts": {
+    "build": "fis3 server stop && fis3 release pro -d ./dist",
+    "dev": " fis3 server start --root ./ && fis3 release -d ./dist -wL "
+  },
+  "keywords": [
+    "amazeui-plugin",
+    "amaze-ui",
+    "AMUI",
+    "area-select",
+    "jquery-plugin"
+  ],
+  "author": "czl <471060995@qq.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "fis-parser-babel-5.x": "^1.4.0",
+    "fis3-hook-del": "^1.0.0",
+    "fis3-hook-relative": "^1.0.9",
+    "fis3-parser-less2": "^0.1.1",
+    "fis3-postprocessor-autoprefixer": "^1.0.0",
+    "mockjs": "^1.0.1-beta3"
+  },
+  "dependencies": {
+    "amazeui": "^2.7.2",
+    "jquery": "^2.2.4"
+  }
+}
