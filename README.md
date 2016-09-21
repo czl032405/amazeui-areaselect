@@ -5,6 +5,7 @@
 Amaze UI AreaSelect 插件。
 
 **特性**
+
 多级联动
 事件监听
 自定义数据源
@@ -12,6 +13,7 @@ Amaze UI AreaSelect 插件。
 支持同步异步
 
 **使用说明：**
+
 1. 在 Amaze UI 之后引入 AreaSelect 样式（`dist` 目录下的 CSS）：
 
   Amaze UI AreaSelect 依赖 Amaze UI 样式。
