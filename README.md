@@ -18,25 +18,25 @@ Amaze UI AreaSelect 插件。
 
   Amaze UI AreaSelect 依赖 Amaze UI 样式。
 
-```html
+ ```html
   <link rel="stylesheet" href="path/to/amazeui.min.css"/>
   <link rel="stylesheet" href="path/to/amazeui.areaselect.css"/>
-```
+ ```
 
 2. 在 jQuery 之后和Amaze UI 引入 AreaSelect 插件（`dist` 目录下的 JS）：
 
-```html
+ ```html
   <script src="path/to/jquery.min.js"></script>
   <script src="path/to/amazeui.areaselect.js"></script>
-```
+ ```
 
 3. 初始化 Tree:
 
-```javascript
+ ```javascript
   $(function() {
       $('input').areaselect(options);
   });
-```
+ ```
   
 **启动demo**
 ```
