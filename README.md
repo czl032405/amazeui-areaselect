@@ -30,7 +30,7 @@ Amaze UI AreaSelect 插件。
   <script src="path/to/amazeui.areaselect.js"></script>
  ```
 
-3. 初始化 Tree:
+3. 初始化 AreaSelect:
 
  ```javascript
   $(function() {
