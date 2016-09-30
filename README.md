@@ -3,7 +3,7 @@
 
 
 Amaze UI AreaSelect 插件。
-- [使用示例](http://worldtree.cc/docs/demo.html)
+- [使用示例](http://am-am.44fs.preview.openshiftapps.com/docs/demo.html)
 
 
 **特性**
