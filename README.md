@@ -3,14 +3,15 @@
 
 
 Amaze UI AreaSelect 插件。
+- [使用示例](http://worldtree.cc/docs/demo.html)
 
 **特性**
 
-多级联动
-事件监听
-自定义数据源
-支持promise数据源
-支持同步异步
+- [x] 多级联动
+- [x] 事件监听
+- [x] 自定义数据源
+- [x] 支持promise数据源
+- [x] 支持同步异步
 
 **使用说明：**
 

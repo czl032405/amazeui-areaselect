@@ -18,7 +18,7 @@ module.exports = function (req, res, next) {
     setTimeout(function() {
         
     res.send(data.list)
-    }, 3000);
+    }, 1000);
   }
 
 

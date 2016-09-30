@@ -6,7 +6,8 @@
   "style": "dist/amazeui.areaselect.css",
   "scripts": {
     "build": "fis3 server stop && fis3 release pro -d ./dist",
-    "dev": " fis3 server start --root ./ && fis3 release -d ./dist -wL "
+    "dev": " fis3 server start --root ./ && fis3 release -d ./dist -wL ",
+    "start": "node index"
   },
   "keywords": [
     "amazeui-plugin",
@@ -27,6 +28,8 @@
   },
   "dependencies": {
     "amazeui": "^2.7.2",
-    "jquery": "^2.2.4"
+    "express": "^4.14.0",
+    "jquery": "^2.2.4",
+    "yog-devtools": "^0.1.1"
   }
 }

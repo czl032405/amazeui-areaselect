@@ -63,6 +63,14 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 this.$element.on("click", function (e) {
                     e.preventDefault();
                     plugin.open();
+                    // setTimeout(function () {
+                    //     if ($(".am-areaselect-container", plugin.$popup).hasClass("am-hide")) {
+                    //         $(".am-areaselect-shadow", plugin.$popup).on("click", function () {
+                    //             plugin.close();
+                    //             $(".am-areaselect-shadow", plugin.$popup).unbind("click");
+                    //         })
+                    //     }
+                    // }, 5000);
                 });
 
                 $(".am-areaselect-back", this.$popup).on("click", function () {
@@ -72,12 +80,6 @@ function _classCallCheck(instance, Constructor) { if (!(instance instanceof Cons
                 $(".am-areaselect-close", this.$popup).on("click", function () {
                     plugin.close();
                 });
-
-                // $(".am-areaselect-shadow", this.$popup).on("click", function () {
-                //     if ($(".am-areaselect-container", plugin.$popup).hasClass("am-hide")) {
-                //         plugin.close();
-                //     }
-                // })
             }
         }, {
             key: "select",
