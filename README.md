@@ -5,6 +5,7 @@
 Amaze UI AreaSelect 插件。
 - [使用示例](http://worldtree.cc/docs/demo.html)
 
+
 **特性**
 
 - [x] 多级联动
