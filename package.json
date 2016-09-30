@@ -9,6 +9,10 @@
     "dev": " fis3 server start --root ./ && fis3 release -d ./dist -wL ",
     "start": "node index"
   },
+  "engine": {
+    "node": "*",
+    "npm": "*"
+  },
   "keywords": [
     "amazeui-plugin",
     "amaze-ui",
