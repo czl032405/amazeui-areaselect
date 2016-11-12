@@ -1,8 +1,11 @@
 var express = require('express');
 var path = require('path');
 var app = express();
+app.set('port', (process.env.PORT || 80));
 
+var clientPath = path.join(__dirname, "./");
 var DOCUMENT_ROOT = path.resolve("./");
+
 // server.conf 功能
 // 支持 test/ 目录下面 .js js 脚本功能和 json 预览功能。
 // 注意这里面的.js，不是一般的.js 文件，而是相当于 express 的 route.
@@ -13,15 +16,10 @@ app.use(require('yog-devtools')({
 }));
 
 // 静态文件输出
-app.use(express.static(DOCUMENT_ROOT, {
-    index: ['index.html', 'index.htm', 'default.html', 'default.htm'],
-    extensions: ['html', 'htm']
-}));
+app.use(express.static(clientPath));
 
-//listen
-var port = process.env.PORT || process.env.OPENSHIFT_NODEJS_PORT || 8080,
-    ip   = process.env.IP   || process.env.OPENSHIFT_NODEJS_IP || '0.0.0.0';
-app.listen(port, ip,function(){
-    
-console.log('Server running on http://%s:%s', ip, port);
+
+
+app.listen(app.get('port'), function () {
+    console.log('Express server listening on port ' + app.get('port'));
 });
