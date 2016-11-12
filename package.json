@@ -27,10 +27,11 @@
     "fis3-hook-del": "^1.0.0",
     "fis3-hook-relative": "^1.0.9",
     "fis3-parser-less2": "^0.1.1",
-    "fis3-postprocessor-autoprefixer": "^1.0.0",
-    "mockjs": "^1.0.1-beta3"
+    "fis3-postprocessor-autoprefixer": "^1.0.0"
+   
   },
   "dependencies": {
+     "mockjs": "^1.0.1-beta3",
     "amazeui": "^2.7.2",
     "express": "^4.14.0",
     "jquery": "^2.2.4",
