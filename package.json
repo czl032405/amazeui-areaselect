@@ -10,8 +10,8 @@
     "start": "node index"
   },
   "engine": {
-    "node": "*",
-    "npm": "*"
+    "node": "6.3.1",
+    "npm": "3.5.2"
   },
   "keywords": [
     "amazeui-plugin",
